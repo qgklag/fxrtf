@@ -1,0 +1,59 @@
+
+/* Основное оформление страницы */
+body {
+    background-color: #FFEEEE;
+    font-family: Georgia, serif;
+}
+
+/* Заголовки */
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Заголовок первого уровня с изображением кота */
+h1 {
+    background-image: url("images/cat.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 100px auto;
+    padding-left: 110px;
+    min-height: 100px;
+    line-height: 100px;
+}
+
+/* Заголовки второго уровня */
+h2 {
+    color: #800000;
+}
+
+/* Латинские слова */
+.latin {
+    font-style: italic;
+    color: #800000;
+}
+
+/* Все обычные абзацы */
+p {
+    text-indent: 30px;
+}
+
+/* Имена авторов цитат */
+.author {
+    font-style: italic;
+    text-indent: 0;
+}
+
+/* Цитаты */
+.quote {
+    background-color: #FEFEE2;
+    text-indent: 0;
+    width: 50%;
+    margin: 0 30px 10px;
+    border: 1px dotted black;
+    padding: 10px;
+}
+
+/* Ссылки при наведении мыши */
+.author a:hover {
+    color: red;
+}

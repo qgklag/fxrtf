@@ -1,0 +1,58 @@
+
+/* Основное оформление страницы */
+body {
+    background-image: url("images/back.jpg");
+    background-repeat: repeat;
+    background-color: #202020;
+    color: #ffffff;
+    font-family: Georgia, serif;
+    padding: 20px;
+}
+
+/* Главный заголовок */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Заголовки разделов */
+h2 {
+    color: #ffd700;
+    font-family: Arial, sans-serif;
+}
+
+/* Выделение имен, фамилий, групп, песен и фильмов */
+.name {
+    font-weight: bold;
+    font-style: italic;
+    color: #ffcc66;
+}
+
+/* Общие настройки абзацев */
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* Абзацы с изображениями */
+.article {
+    display: flow-root;
+}
+
+/* Изображения */
+img {
+    width: 180px;
+    height: auto;
+    margin: 10px;
+}
+
+/* Изображение слева */
+.left {
+    float: left;
+}
+
+/* Изображение справа */
+.right {
+    float: right;
+}

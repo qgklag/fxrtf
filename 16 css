@@ -1,0 +1,93 @@
+
+/* Общие настройки всех таблиц */
+table {
+    margin: 10px auto;
+}
+
+/* Первая таблица */
+table.sport {
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+/* Ячейки первой таблицы */
+table.sport td {
+    text-align: center;
+    padding: 2px 5px;
+}
+
+/* Названия команд */
+table.sport td.left {
+    text-align: left;
+}
+
+/* Заголовки и места */
+table.sport th {
+    text-align: center;
+    padding: 2px 5px;
+}
+
+
+/* Вторая таблица */
+table.herb {
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+/* Заголовок гербария */
+.header {
+    background-image: url("images/back.jpg");
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Ячейки с цветами */
+.picture {
+    text-align: center;
+    background-image: url("images/paper.jpg");
+    padding: 10px;
+    width: 120px;
+}
+
+/* Подписи цветов */
+.note {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #800000;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+
+/* Третья таблица */
+table.layout {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+/* Фотография Цезаря */
+.portrait {
+    text-align: center;
+    vertical-align: top;
+    padding: 5px;
+    width: 120px;
+}
+
+/* Текст о Цезаре */
+.article {
+    text-align: justify;
+    vertical-align: top;
+    padding: 5px;
+}
+
+/* Рекламный блок */
+.ad {
+    border: 1px solid #CCCCCC;
+    background-color: rgb(230, 230, 255);
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    width: 150px;
+}

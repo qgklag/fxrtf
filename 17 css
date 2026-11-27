@@ -1,0 +1,66 @@
+
+/* Сброс отступов для всех элементов */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Заголовок страницы */
+#header {
+    height: 80px;
+    background-image: url("images/header.jpg");
+    background-repeat: no-repeat;
+    padding-left: 200px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+/* Левая колонка — погода */
+#pogoda {
+    width: 140px;
+    margin-left: 10px;
+    float: left;
+}
+
+/* Правая колонка — фотографии */
+#photo {
+    width: 220px;
+    margin-left: 10px;
+    float: right;
+}
+
+/* Фотографии Байкала */
+#photo img {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 10px auto;
+}
+
+/* Центральная колонка — текст */
+#content {
+    margin-left: 140px;
+    margin-right: 220px;
+}
+
+/* Абзацы центральной колонки */
+#content p {
+    margin: 5px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+/* Абзац с Википедией */
+#content .source {
+    text-align: right;
+    text-indent: 0;
+}
+
+/* Подвал */
+#footer {
+    background-color: #CCCCCC;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    clear: both;
+}
